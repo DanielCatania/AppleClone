@@ -109,3 +109,25 @@
 }
 
 /* *** GIFT - END *** */
+
+/* *** IPAD - START *** */
+
+.ipad {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 2em 0;
+}
+
+.ipad__img {
+  width: 50%;
+  max-width: 450px;
+  margin-right: -100px;
+}
+
+.ipad .ipad__text {
+  text-align: center;
+}
+
+/* *** IPAD - END *** */
