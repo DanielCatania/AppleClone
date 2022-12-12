@@ -97,6 +97,7 @@ body {
 
 .iphone {
   height: calc(100vh - 50px);
+  background-color: #FAFAFA;
 
   background-image: url('../img/banner/iphone.png');
   background-position: bottom;
