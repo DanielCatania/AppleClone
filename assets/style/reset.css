@@ -33,4 +33,5 @@ button {
   border: none;
   color: inherit;
   background-color: inherit;
+	cursor: pointer;
 }
