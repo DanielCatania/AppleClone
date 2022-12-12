@@ -1,0 +1,78 @@
+.banner {
+  height: calc(100vh - 50px);
+}
+
+.link {
+  color: #06c;
+  
+  font-size: 22px;
+  line-height: 1.5em;
+
+  margin: 0 .5em;
+}
+
+.link::after {
+  content: ' >';
+
+  font-size: 0.9em;
+  margin: 0.1em 0;
+}
+
+.title {
+  font-size: 56px;
+  font-weight: 600;
+  
+  letter-spacing: 0.004em;
+  line-height: 1.25em;
+}
+
+.subtitle {
+  font-size: 24px;
+  line-height: 1.5em;
+}
+
+@media screen and (max-width: 768px){
+  .banner {
+    height: calc(75vh - 50px);
+  }
+  .link {
+    font-size: 19px;
+  }
+  .title {
+    font-size: 32px;
+  }
+  .subtitle {
+    font-size: 19px;
+  }
+}
+
+/* *** IPHONE - START *** */
+
+.iphone {
+  background-color: #FAFAFA;
+
+  background-image: url('../img/banner/iphone.png');
+  background-position: bottom;
+  background-size: calc(100vh - 50px);
+  background-repeat: no-repeat;
+
+  text-align: center;
+
+  padding-top: 50px;
+}
+
+.iphone .iphone__title, .iphone .iphone__subtitle {
+  color: #1d1d1f;
+}
+
+.iphone .iphone__links {
+  margin-top: 0.5em;
+}
+
+@media screen and (max-width: 768px){
+  .iphone {
+    background-size: calc(75vh - 50px);
+  }
+}
+
+/* *** IPHONE - END *** */
