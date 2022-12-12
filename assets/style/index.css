@@ -92,3 +92,73 @@ body {
 /* RESPONSIVENESS - END */
 
 /* *** HEADER ~~ END *** */
+
+/* *** IPHONE - START *** */
+
+.iphone {
+  height: calc(100vh - 50px);
+
+  background-image: url('../img/banner/iphone.png');
+  background-position: bottom;
+  background-size: calc(100vh - 50px);
+  background-repeat: no-repeat;
+
+  text-align: center;
+
+  padding-top: 50px;
+}
+
+.iphone .iphone__title {
+  font-size: 56px;
+  font-weight: 600;
+
+  color: #1d1d1f;
+  
+  letter-spacing: 0.004em;
+  line-height: 1.25em;
+}
+
+.iphone .iphone__subtitle {
+  font-size: 24px;
+  line-height: 1.5em;
+
+  color: #1d1d1f;
+}
+
+.iphone .iphone__links {
+  margin-top: 0.5em;
+}
+
+.iphone .iphone__links .iphone__link {
+  color: #06c;
+  
+  font-size: 22px;
+  line-height: 1.5em;
+
+  margin: 0 .5em;
+}
+
+.iphone .iphone__links .iphone__link::after {
+  content: ' >';
+
+  font-size: 0.9em;
+  margin: 0.1em 0;
+}
+
+@media screen and (max-width: 768px){
+  .iphone {
+    height: calc(75vh - 50px);
+    background-size: calc(75vh - 50px);
+  }
+  .iphone .iphone__title {
+    font-size: 32px;
+  }
+  .iphone .iphone__subtitle {
+    font-size: 19px;
+  }
+  .iphone .iphone__links .iphone__link {
+    font-size: 19px;
+  }
+}
+
+/* *** IPHONE - END *** */
